@@ -1,3 +1,4 @@
+
 using LBICAA.Application.Abstractions.Persistence;
 using LBICAA.Domain.Evidence;
 using LBICAA.Infrastructure.Persistence;
@@ -20,9 +21,12 @@ public sealed class EfEvidenceRepository(
         Guid claimId,
         CancellationToken cancellationToken = default)
     {
-        return await dbContext.Evidence
+        var evidence = await dbContext.Evidence
             .Where(x => x.ClaimId == claimId)
-            .OrderBy(x => x.RecordedAt)
             .ToListAsync(cancellationToken);
+
+        return evidence
+            .OrderBy(x => x.RecordedAt)
+            .ToList();
     }
 }

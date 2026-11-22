@@ -1,3 +1,4 @@
+
 using LBICAA.Application.Abstractions.Persistence;
 using LBICAA.Domain.Verification;
 using LBICAA.Infrastructure.Persistence;
@@ -20,9 +21,12 @@ public sealed class EfVerificationRepository(
         Guid claimId,
         CancellationToken cancellationToken = default)
     {
-        return await dbContext.VerificationRecords
+        var records = await dbContext.VerificationRecords
             .Where(x => x.ClaimId == claimId)
-            .OrderBy(x => x.VerifiedAt)
             .ToListAsync(cancellationToken);
+
+        return records
+            .OrderBy(x => x.VerifiedAt)
+            .ToList();
     }
 }
