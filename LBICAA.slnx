@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LBICAA.Analysis/LBICAA.Analysis.csproj" />
+    <Project Path="src/LBICAA.Api/LBICAA.Api.csproj" />
+    <Project Path="src/LBICAA.Atlas/LBICAA.Atlas.csproj" />
+    <Project Path="src/LBICAA.Crawler/LBICAA.Crawler.csproj" />
+    <Project Path="src/LBICAA.Domain/LBICAA.Domain.csproj" />
+    <Project Path="src/LBICAA.Infrastructure/LBICAA.Infrastructure.csproj" />
+    <Project Path="src/LBICAA.Verification/LBICAA.Verification.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LBICAA.Tests/LBICAA.Tests.csproj" />
+  </Folder>
+</Solution>
