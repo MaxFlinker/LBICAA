@@ -22,6 +22,8 @@
     <ProjectReference Include="..\..\src\LBICAA.Domain\LBICAA.Domain.csproj" />
     <ProjectReference Include="..\..\src\LBICAA.Verification\LBICAA.Verification.csproj" />
     <ProjectReference Include="..\..\src\LBICAA.Analysis\LBICAA.Analysis.csproj" />
+    <ProjectReference Include="..\..\src\LBICAA.Infrastructure\LBICAA.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\LBICAA.Application\LBICAA.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LBICAA.Domain\LBICAA.Domain.csproj" />
+    <ProjectReference Include="..\LBICAA.Application\LBICAA.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
