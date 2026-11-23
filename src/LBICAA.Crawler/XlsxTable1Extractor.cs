@@ -148,18 +148,6 @@ public static class XlsxTable1Extractor
             }
         };
 
-        foreach (var column in new[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" })
-        {
-            var parts = new[]
-            {
-                GetCellText(cellsByReference, $"{column}6"),
-                GetCellText(cellsByReference, $"{column}7")
-            }
-            .Where(value => !string.IsNullOrWhiteSpace(value));
-
-            columnHeaders[column] = string.Join(" / ", parts);
-        }
-
         var observations = new List<Observation>();
 
         // Each row points to the row containing its parent indicator.
@@ -180,6 +168,20 @@ public static class XlsxTable1Extractor
             [20] = 19,
             [21] = 19,
             [22] = 19
+        };
+
+        var columnHeaderCellReferences = new Dictionary<string, List<string>>
+        {
+            ["A"] = ["A6"],
+            ["B"] = ["B6"],
+            ["C"] = ["C6"],
+            ["D"] = ["D6"],
+            ["E"] = ["E6"],
+            ["F"] = ["F6", "F7"],
+            ["G"] = ["F6", "G7"],
+            ["H"] = ["H6", "H7"],
+            ["I"] = ["H6", "I7"],
+            ["J"] = ["J7"]
         };
 
         foreach (var rowNumber in Enumerable.Range(9, 14))
@@ -227,7 +229,11 @@ public static class XlsxTable1Extractor
                     Formula = cell.Formula,
                     StyleIndex = cell.StyleIndex,
                     NumberFormatId = cell.NumberFormatId,
-                    NumberFormatCode = cell.NumberFormatCode
+                    NumberFormatCode = cell.NumberFormatCode,
+                    SourceLabelCellReference = $"A{rowNumber}",
+                    IndicatorCellReference = $"A{parentRow}",
+                    UnitCellReference = unit is null ? null : $"B{parentRow}",
+                    ColumnHeaderCellReferences = columnHeaderCellReferences[column],
                 });
             }
         }
@@ -482,5 +488,10 @@ public static class XlsxTable1Extractor
         public string? SourceLabel { get; set; }
         public string? DataType { get; set; }
         public int IndicatorSourceRow { get; set; }
+
+        public string? SourceLabelCellReference { get; set; }
+        public string? IndicatorCellReference { get; set; }
+        public string? UnitCellReference { get; set; }
+        public List<string> ColumnHeaderCellReferences { get; set; } = [];
     }
 }

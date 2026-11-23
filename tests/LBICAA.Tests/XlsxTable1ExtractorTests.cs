@@ -328,6 +328,25 @@ public class XlsxTable1ExtractorTests
 
         Assert.Null(orderIntake.Unit);
         Assert.Equal("94271", orderIntake.ResolvedValue);
+
+                // Indicator row: label and unit originate from the same row.
+        Assert.Equal("A10", hours.IndicatorCellReference);
+        Assert.Equal("A10", hours.SourceLabelCellReference);
+        Assert.Equal("B10", hours.UnitCellReference);
+
+        // Category row: inherits indicator and unit from its parent.
+        var housing = Assert.Single(
+            result.Observations,
+            item => item.CellReference == "E11");
+
+        Assert.Equal("Geleistete Arbeitsstunden", housing.Indicator);
+        Assert.Equal("Wohnungsbau", housing.Category);
+        Assert.Equal("A10", housing.IndicatorCellReference);
+        Assert.Equal("A11", housing.SourceLabelCellReference);
+        Assert.Equal("B10", housing.UnitCellReference);
+
+        // An indicator without a unit must not acquire a fictitious reference.
+        Assert.Null(orderIntake.UnitCellReference);
     }
 
     [Fact]
@@ -875,6 +894,7 @@ public void ExtractorAndVerifierTreatTextMarkerAsNotVerifiable()
                 Directory.Delete(tempDirectory, true);
         }
     }
+
     [Fact]
     public void RecordsExtractionProvenance()
     {
@@ -901,5 +921,88 @@ public void ExtractorAndVerifierTreatTextMarkerAsNotVerifiable()
             character => Assert.True(Uri.IsHexDigit(character)));
 
         Assert.True(provenance.GitWorkingTreeDirty);
+    }
+
+    [Fact]
+    public void EveryObservationHasCompleteAndConsistentProvenance()
+    {
+        var result = ExtractFixture();
+
+        Assert.Equal(112, result.Observations.Count);
+
+        var expectedHeaders = new Dictionary<string, string[]>
+        {
+            ["C"] = ["C6"],
+            ["D"] = ["D6"],
+            ["E"] = ["E6"],
+            ["F"] = ["F6", "F7"],
+            ["G"] = ["F6", "G7"],
+            ["H"] = ["H6", "H7"],
+            ["I"] = ["H6", "I7"],
+            ["J"] = ["J7"]
+        };
+
+        Assert.All(result.Observations, observation =>
+        {
+            Assert.False(
+                string.IsNullOrWhiteSpace(
+                    observation.SourceLabelCellReference));
+
+            Assert.False(
+                string.IsNullOrWhiteSpace(
+                    observation.IndicatorCellReference));
+
+            Assert.NotEmpty(
+                observation.ColumnHeaderCellReferences);
+
+            Assert.True(
+                expectedHeaders.ContainsKey(observation.Column));
+
+            Assert.Equal(
+                expectedHeaders[observation.Column],
+                observation.ColumnHeaderCellReferences);
+
+            Assert.Matches(
+                @"^A\d+$",
+                observation.SourceLabelCellReference!);
+
+            Assert.Matches(
+                @"^A\d+$",
+                observation.IndicatorCellReference!);
+
+            if (observation.UnitCellReference is not null)
+            {
+                Assert.Matches(
+                    @"^B\d+$",
+                    observation.UnitCellReference);
+            }
+        });
+    }
+
+    [Fact]
+    public void PreservesColumnHeaderSourceReferences()
+    {
+        var result = ExtractFixture();
+
+        var expected = new Dictionary<string, (string Header, string[] References)>
+        {
+            ["F"] = ("Veränderung in % April 2013 gegenüber — April 2012", ["F6", "F7"]),
+            ["G"] = ("Veränderung in % April 2013 gegenüber — März 2013", ["F6", "G7"]),
+            ["H"] = ("Januar bis April2 — 2012", ["H6", "H7"]),
+            ["I"] = ("Januar bis April2 — 2013", ["H6", "I7"]),
+            ["J"] = ("Verän-derung in %", ["J7"])
+        };
+
+        foreach (var (column, expectation) in expected)
+        {
+            var observation = Assert.Single(
+                result.Observations,
+                item => item.CellReference == $"{column}9");
+
+            Assert.Equal(expectation.Header, observation.ColumnHeader);
+            Assert.Equal(
+                expectation.References,
+                observation.ColumnHeaderCellReferences);
+        }
     }
 }
