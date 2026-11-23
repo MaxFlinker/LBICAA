@@ -1,14 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\LBICAA.Domain\LBICAA.Domain.csproj" />
-    <ProjectReference Include="..\LBICAA.Infrastructure\LBICAA.Infrastructure.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net11.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LBICAA.Domain\LBICAA.Domain.csproj" />
+    <ProjectReference Include="..\LBICAA.Infrastructure\LBICAA.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>

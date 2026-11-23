@@ -480,3 +480,12 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Local SQLite database
+/src/LBICAA.Api/lbicaa.db
+/src/LBICAA.Api/lbicaa.db-shm
+/src/LBICAA.Api/lbicaa.db-wal
+
+# Temporary source and test backups
+*.bak
+*.bak-*

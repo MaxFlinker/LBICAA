@@ -26,6 +26,13 @@
     <ProjectReference Include="..\..\src\LBICAA.Infrastructure\LBICAA.Infrastructure.csproj" />
     <ProjectReference Include="..\..\src\LBICAA.Application\LBICAA.Application.csproj" />
     <ProjectReference Include="..\..\src\LBICAA.Api\LBICAA.Api.csproj" />
+    <ProjectReference Include="..\..\src\LBICAA.Crawler\LBICAA.Crawler.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+  <None Update="Fixtures\hamburg-construction-april-2013.xlsx">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
   </ItemGroup>
 
 </Project>
