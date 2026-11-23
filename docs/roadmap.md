@@ -84,15 +84,17 @@ The exact boundaries and responsibilities of the specialised projects should be 
 - [x] Handling of missing claim/source references in the relevant application workflows.
 - [x] Resolution of SQLite DateTimeOffset ordering limitations in evidence and verification repositories.
 - [x] Successful manual end-to-end HTTP test of claim creation, source creation, evidence attachment, verification and retrieval.
-- [x] Existing automated test suite: 31 passed, 0 failed, 0 skipped.
+- [x] Automated test suite: 45 passed, 0 failed, 0 skipped.
+- [x] Automated API integration tests for the core source-to-verification workflow.
+- [x] Automated API error-handling tests for selected invalid requests and missing resources.
+- [x] Migration execution and repository integration tests.
 
-### Important distinction
+### Test coverage qualification
 
-The new API endpoints have been tested manually through PowerShell. Their HTTP workflows are not yet confirmed as covered by automated API integration tests.
+The API integration tests use an isolated SQLite database created with EnsureCreated().
+Migration execution is tested separately using MigrateAsync().
 
-A successful build and test run does not establish that every future workflow or deployment scenario is production-ready.
-
----
+The current test suite verifies the implemented workflows. It does not establish production readiness or coverage of future functionality.
 
 ## 5. Delivery roadmap
 
@@ -142,7 +144,19 @@ Acceptance criteria:
 - Persistence tests cover create, retrieve and restart scenarios.
 - Migrations can create and update the database reliably.
 
-**Status:** SQLite and repository foundation implemented; persistence verification and migration coverage remain to be assessed.
+**Status: Implemented and tested.**
+
+Implemented:
+- EF Core DbContext and entity mappings.
+- SQLite persistence.
+- Database migrations and migration execution tests.
+- Repositories for claims, sources, evidence and verification records.
+- Persistence round-trip tests.
+- Chronological retrieval of evidence and verification records.
+- Foreign-key constraints for claim and source relationships.
+- Restrict-delete behaviour for referenced records.
+
+Migration and repository integration tests use isolated SQLite databases.
 
 ### Phase 3 — Application workflows
 
@@ -166,7 +180,20 @@ Acceptance criteria:
 - Errors are predictable and testable.
 - Application tests cover successful and unsuccessful operations.
 
-**Status:** Core claim, source, evidence and verification handlers implemented.
+**Status: Core workflows implemented and integration-tested.**
+
+Implemented:
+- Source creation.
+- Claim creation.
+- Claim detail retrieval.
+- Evidence attachment.
+- Verification recording.
+- Handling of missing references in the tested workflows.
+
+Further work:
+- Claim updates and supersession.
+- Historical change recording.
+- Additional business-rule validation.
 
 ### Phase 4 — HTTP API
 
@@ -202,7 +229,27 @@ Acceptance criteria:
 - Successful creation returns appropriate 201 responses.
 - OpenAPI accurately describes the API.
 
-**Status:** Core routes implemented and manually exercised. Automated integration coverage remains outstanding.
+**Status: Implemented; core workflows integration-tested.**
+
+Implemented routes:
+
+- `POST /sources`
+- `POST /claims`
+- `GET /claims/{id}`
+- `POST /claims/{id}/evidence`
+- `POST /claims/{id}/verifications`
+
+Automated integration tests cover the core source-to-verification workflow and selected error paths.
+
+Remaining work:
+
+- Consistent validation and error response contracts.
+- OpenAPI review and documentation.
+- Pagination.
+- Filtering and search.
+- API versioning.
+- Authentication and authorisation.
+- Rate limiting and operational safeguards.
 
 ### Phase 5 — Discovery and source ingestion
 
@@ -431,20 +478,36 @@ Acceptance criteria:
 
 The next work should proceed in this order:
 
-1. Review existing automated tests and map them to domain and application requirements.
-2. Add persistence round-trip tests for claims, sources, evidence and verification records.
-3. Add HTTP integration tests for the implemented API endpoints.
-4. Review database constraints, migrations and repository behaviour.
-5. Establish a real Hamburg source and document its access method and licence.
-6. Implement the first repeatable ingestion adapter.
-7. Connect ingested information to claims and evidence.
-8. Implement the first complete verification workflow.
-9. Extend the domain to represent institutional structures and relationships.
-10. Build the first usable Atlas views.
+1. Review API contracts, validation and OpenAPI documentation.
+2. Identify and document a real Hamburg source, including its licence and update characteristics.
+3. Implement repeatable source ingestion.
+4. Preserve source metadata, retrieval dates and content history.
+5. Connect ingested information to claims and evidence.
+6. Extend verification beyond recording individual verification results.
+7. Model institutional structures and relationships.
+8. Build the first Atlas views.
+
+Persistence, migrations, repository behaviour and core API workflows have already received automated integration-test coverage.
 
 Avoid implementing large numbers of features before the first real-data workflow is demonstrated.
 
----
+## Next milestone: Hamburg source ingestion
+
+**Objective:** demonstrate that LBICAA can retrieve and preserve real information from an official Hamburg source.
+
+Acceptance criteria:
+
+- At least one official Hamburg source is identified and documented.
+- Its access method and licence conditions are recorded.
+- Source metadata and retrieval timestamps are preserved.
+- Relevant content can be retrieved repeatably.
+- Duplicate and changed source material can be identified.
+- Retrieval failures are recorded.
+- Existing source and evidence provenance is preserved.
+
+**Status: Planned.**
+
+The persistence and core API foundations have been implemented and tested. The next milestone moves development towards real-world source material.
 
 ## 7. Definition of project completion
 

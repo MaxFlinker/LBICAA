@@ -408,3 +408,7 @@ app.MapPost("/claims/{id:guid}/verifications",
     .WithName("RecordVerification")
     .WithSummary("Record a verification result for a claim");
 app.Run();
+// Exposes the application entry point to integration tests.
+public partial class Program
+{
+}

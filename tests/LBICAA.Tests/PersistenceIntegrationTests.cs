@@ -234,10 +234,22 @@ public class PersistenceIntegrationTests
 
         context.Database.EnsureCreated();
 
+        var source = new Source(
+            Guid.NewGuid(),
+            "Hamburg Official Website",
+            "Freie und Hansestadt Hamburg",
+            new Uri("https://www.hamburg.de/"),
+            SourceType.OfficialWebsite,
+            DateTimeOffset.UtcNow,
+            LicenceStatus.Known);
+
+        context.Sources.Add(source);
+        context.SaveChanges();
+
         var evidence = new Evidence(
             Guid.NewGuid(),
             Guid.NewGuid(),
-            Guid.NewGuid(),
+            source.Id,
             "Page 12",
             EvidenceAssessment.Supports,
             DateTimeOffset.UtcNow);
@@ -288,7 +300,6 @@ public class PersistenceIntegrationTests
             () => context.SaveChanges());
     }
 
-    
 [Fact]
 public void Claim_WithEvidence_CannotBeDeleted()
 {
@@ -459,4 +470,69 @@ public void Claim_WithVerificationRecord_CannotBeDeleted()
             Assert.Null(stored.Validity.ValidUntil);
         }
     }
+
+    [Fact]
+public void Source_WithEvidence_CannotBeDeleted()
+{
+    using var connection = new SqliteConnection(
+        "Data Source=:memory:");
+
+    connection.Open();
+
+    var claimId = Guid.NewGuid();
+    var sourceId = Guid.NewGuid();
+
+    var claim = new Claim(
+        claimId,
+        "organisation:hamburg",
+        "hasOfficialWebsite",
+        ClaimValue.Literal("https://www.hamburg.de/"),
+        ClaimNature.Documented,
+        ConfidenceLevel.High,
+        new TemporalValidity(null, null),
+        DateTimeOffset.UtcNow);
+
+    var source = new Source(
+        sourceId,
+        "Hamburg Official Website",
+        "Freie und Hansestadt Hamburg",
+        new Uri("https://www.hamburg.de/"),
+        SourceType.OfficialWebsite,
+        DateTimeOffset.UtcNow,
+        LicenceStatus.Known);
+
+    // Seed claim, source and dependent evidence.
+    using (var context = new LbicaaDbContext(
+        CreateOptions(connection)))
+    {
+        context.Database.EnsureCreated();
+
+        context.Claims.Add(claim);
+        context.Sources.Add(source);
+        context.SaveChanges();
+
+        context.Evidence.Add(new Evidence(
+            Guid.NewGuid(),
+            claimId,
+            sourceId,
+            "Page 12",
+            EvidenceAssessment.Supports,
+            DateTimeOffset.UtcNow));
+
+        context.SaveChanges();
+    }
+
+    // Attempt deletion using a fresh context.
+    using (var context = new LbicaaDbContext(
+        CreateOptions(connection)))
+    {
+        var storedSource = context.Sources.Single(
+            x => x.Id == sourceId);
+
+        context.Sources.Remove(storedSource);
+
+        Assert.Throws<DbUpdateException>(
+            () => context.SaveChanges());
+    }
+}
 }
