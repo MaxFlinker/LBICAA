@@ -4930,9 +4930,9 @@
     "SchemaVersion": "1.0",
     "ExtractorVersion": "1.0.0.0",
     "SourceSha256": "C1E6A7E77D2E13DB4D36556613492F0C31514F5A1B0D108C011CC0E2679F1EEB",
-    "ExtractedAtUtc": "2026-11-23T13:49:31.3870566+00:00",
+    "ExtractedAtUtc": "2026-11-23T13:57:24.7938144+00:00",
     "SourcePath": "C:\\dev\\lbicaa\\data\\sources\\artifacts\\sha256\\c1\\c1e6a7e77d2e13db4d36556613492f0c31514f5a1b0d108c011cc0e2679f1eeb",
-    "GitCommit": "f69064637728c203800531782a145a75e142f359",
-    "GitWorkingTreeDirty": true
+    "GitCommit": "95cff0a00f236bef5ce3f674a588f91cd4ca49c7",
+    "GitWorkingTreeDirty": false
   }
 }
