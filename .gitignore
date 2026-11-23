@@ -489,3 +489,11 @@ $RECYCLE.BIN/
 # Temporary source and test backups
 *.bak
 *.bak-*
+
+# Downloaded source packages and content-addressed copies
+/data/sources/artifacts/
+/data/sources/244ce318-f9c9-4bef-8f59-9d45ca6777e6/
+/data/sources/352a98d0-b158-4fc6-a412-0c31530f22df/
+/data/sources/9ec62189-e031-4091-8786-d2a1df41c993/
+/data/sources/b19488b4-ba92-4e89-866f-8dfa9e6bacd6/
+/data/sources/e85c533d-91c0-4bf7-8865-f3786de24878/

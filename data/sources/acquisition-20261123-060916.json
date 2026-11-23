@@ -1,0 +1,256 @@
+{
+  "Version": "1.0",
+  "CreatedAt": "2026-11-23T06:09:16.2402048+00:00",
+  "Datasets": [
+    {
+      "Id": "b19488b4-ba92-4e89-866f-8dfa9e6bacd6",
+      "Title": "Das Baugewerbe in Hamburg im April 2013 (E II 1 / E III 1 - m 4/13 HH)",
+      "Publisher": "Statistisches Amt f\u00FCr Hamburg und Schleswig-Holstein A.\u00F6.R. (Statistikamt Nord)",
+      "LicenceId": "dl-de-by-2.0",
+      "LicenceTitle": "Datenlizenz Deutschland - Namensnennung - 2.0",
+      "MetadataModified": "2026-11-23T05:42:40.636512",
+      "RetrievedAt": "2026-11-23T06:09:08.6696812+00:00",
+      "Resources": [
+        {
+          "Id": "4fc70d13-21f5-454d-bee8-7ed5edb3a005",
+          "Name": "Das Baugewerbe in Hamburg im April 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1304_HH.xlsx",
+          "Format": "XLSX",
+          "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "LastModified": null,
+          "FileName": "4fc70d13-21f5-454d-bee8-7ed5edb3a005_c1e6a7e77d2e_E_II_E_III_1_m1304_HH.xlsx",
+          "Sha256": "c1e6a7e77d2e13db4d36556613492f0c31514f5a1b0d108c011cc0e2679f1eeb",
+          "SizeBytes": 310366,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:06.8668121+00:00"
+        },
+        {
+          "Id": "e6ef6960-512f-4618-ad9d-332bca7d12aa",
+          "Name": "Das Baugewerbe in Hamburg im April 2013 (CSV-Version in einer ZIP-Datei)",
+          "Url": "http://suche.transparenz.hamburg.de/localresources/StaNord_CMS/StaNord_CMS55459/E_II_E_III_1_m1304_HH.zip",
+          "Format": "ZIP",
+          "MimeType": "application/zip",
+          "LastModified": null,
+          "FileName": "e6ef6960-512f-4618-ad9d-332bca7d12aa_0f2a6e9727da_E_II_E_III_1_m1304_HH.zip",
+          "Sha256": "0f2a6e9727da63c2687fb56cefdebf5a08236d0910782ff186646e32520c2a95",
+          "SizeBytes": 360551,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:08.1174963+00:00"
+        },
+        {
+          "Id": "9af503b5-3458-4ab6-aed3-b440d4076b71",
+          "Name": "Das Baugewerbe in Hamburg im April 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1304_HH.pdf",
+          "Format": "PDF",
+          "MimeType": "application/pdf",
+          "LastModified": null,
+          "FileName": "9af503b5-3458-4ab6-aed3-b440d4076b71_7351b41b9cfd_E_II_E_III_1_m1304_HH.pdf",
+          "Sha256": "7351b41b9cfd476c277664d5dde83068cdb0d268fcd7f2dfb44f414cfa83b58b",
+          "SizeBytes": 852280,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:08.6646831+00:00"
+        }
+      ]
+    },
+    {
+      "Id": "e85c533d-91c0-4bf7-8865-f3786de24878",
+      "Title": "Das Baugewerbe in Hamburg im Mai 2013 (E II 1 / E III 1 - m 5/13 HH)",
+      "Publisher": "Statistisches Amt f\u00FCr Hamburg und Schleswig-Holstein A.\u00F6.R. (Statistikamt Nord)",
+      "LicenceId": "dl-de-by-2.0",
+      "LicenceTitle": "Datenlizenz Deutschland - Namensnennung - 2.0",
+      "MetadataModified": "2026-11-23T05:42:39.269393",
+      "RetrievedAt": "2026-11-23T06:09:11.18444+00:00",
+      "Resources": [
+        {
+          "Id": "0a133ab7-6ea7-468a-9f3a-5d65ac75a680",
+          "Name": "Das Baugewerbe in Hamburg im Mai 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1305_HH.xlsx",
+          "Format": "XLSX",
+          "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "LastModified": null,
+          "FileName": "0a133ab7-6ea7-468a-9f3a-5d65ac75a680_029944278637_E_II_E_III_1_m1305_HH.xlsx",
+          "Sha256": "02994427863798badc707e6eee2d415eb43b4f2750c4a2d2a14d9c71e74f23d9",
+          "SizeBytes": 300088,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:08.9477775+00:00"
+        },
+        {
+          "Id": "faa06aa5-4464-4c0d-980b-e5d93902ed61",
+          "Name": "Das Baugewerbe in Hamburg im Mai 2013 (CSV-Version in einer ZIP-Datei)",
+          "Url": "http://suche.transparenz.hamburg.de/localresources/StaNord_CMS/StaNord_CMS55793/E_II_E_III_1_m1305_HH.zip",
+          "Format": "ZIP",
+          "MimeType": "application/zip",
+          "LastModified": null,
+          "FileName": "faa06aa5-4464-4c0d-980b-e5d93902ed61_e960db8a0cee_E_II_E_III_1_m1305_HH.zip",
+          "Sha256": "e960db8a0ceeae2e5b0ee0cc42e1e384ca99327b287fe47f7e4c4bb3f23f8187",
+          "SizeBytes": 349977,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:10.1434999+00:00"
+        },
+        {
+          "Id": "e0adc3df-5b97-4725-8013-d46bc9f2ef72",
+          "Name": "Das Baugewerbe in Hamburg im Mai 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1305_HH.pdf",
+          "Format": "PDF",
+          "MimeType": "application/pdf",
+          "LastModified": null,
+          "FileName": "e0adc3df-5b97-4725-8013-d46bc9f2ef72_cc16ed0095e4_E_II_E_III_1_m1305_HH.pdf",
+          "Sha256": "cc16ed0095e4b4a0dceac500e9a557474f1371fddbe74fe059dc810e85a4d438",
+          "SizeBytes": 885480,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:11.1840077+00:00"
+        }
+      ]
+    },
+    {
+      "Id": "9ec62189-e031-4091-8786-d2a1df41c993",
+      "Title": "Das Baugewerbe in Hamburg im Juni 2013 (E II 1 / E III 1 - m 6/13 HH)",
+      "Publisher": "Statistisches Amt f\u00FCr Hamburg und Schleswig-Holstein A.\u00F6.R. (Statistikamt Nord)",
+      "LicenceId": "dl-de-by-2.0",
+      "LicenceTitle": "Datenlizenz Deutschland - Namensnennung - 2.0",
+      "MetadataModified": "2026-11-23T05:42:37.783149",
+      "RetrievedAt": "2026-11-23T06:09:13.0207313+00:00",
+      "Resources": [
+        {
+          "Id": "066065b1-3cc4-4bfe-8380-27fa291e42eb",
+          "Name": "Das Baugewerbe in Hamburg im Juni 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1306_HH.xlsx",
+          "Format": "XLSX",
+          "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "LastModified": null,
+          "FileName": "066065b1-3cc4-4bfe-8380-27fa291e42eb_732ef090ecc2_E_II_E_III_1_m1306_HH.xlsx",
+          "Sha256": "732ef090ecc2a95fe3779c37ba5b3729f2acb1ee2d8e5efe8422824e1f9cabbd",
+          "SizeBytes": 312414,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:11.6116653+00:00"
+        },
+        {
+          "Id": "2aea171e-99f1-4650-b9a3-7e1f4adfdac0",
+          "Name": "Das Baugewerbe in Hamburg im Juni 2013 (CSV-Version in einer ZIP-Datei)",
+          "Url": "http://suche.transparenz.hamburg.de/localresources/StaNord_CMS/StaNord_CMS55848/E_II_E_III_1_m1306_HH.zip",
+          "Format": "ZIP",
+          "MimeType": "application/zip",
+          "LastModified": null,
+          "FileName": "2aea171e-99f1-4650-b9a3-7e1f4adfdac0_b7bbfaba513a_E_II_E_III_1_m1306_HH.zip",
+          "Sha256": "b7bbfaba513a2a097223adc060501059ab205f9f46431ee068498bb5c53f53dc",
+          "SizeBytes": 365213,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:11.9934822+00:00"
+        },
+        {
+          "Id": "07bc3fb5-a841-4689-87ea-a2f29dfef833",
+          "Name": "Das Baugewerbe in Hamburg im Juni 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1306_HH.pdf",
+          "Format": "PDF",
+          "MimeType": "application/pdf",
+          "LastModified": null,
+          "FileName": "07bc3fb5-a841-4689-87ea-a2f29dfef833_9b2a6d7e4b30_E_II_E_III_1_m1306_HH.pdf",
+          "Sha256": "9b2a6d7e4b30a80c91ffb00f72bde282c7a3f2709f78cb9f9da0cd5433a65ed1",
+          "SizeBytes": 1068294,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:13.0203731+00:00"
+        }
+      ]
+    },
+    {
+      "Id": "244ce318-f9c9-4bef-8f59-9d45ca6777e6",
+      "Title": "Das Baugewerbe in Hamburg im Juli 2013 (E II 1 / E III 1 - m 7/13 HH)",
+      "Publisher": "Statistisches Amt f\u00FCr Hamburg und Schleswig-Holstein A.\u00F6.R. (Statistikamt Nord)",
+      "LicenceId": "dl-de-by-2.0",
+      "LicenceTitle": "Datenlizenz Deutschland - Namensnennung - 2.0",
+      "MetadataModified": "2026-11-23T05:42:36.398853",
+      "RetrievedAt": "2026-11-23T06:09:14.1927841+00:00",
+      "Resources": [
+        {
+          "Id": "8476259f-e478-447c-95fc-c35e7f598e7a",
+          "Name": "Das Baugewerbe in Hamburg im Juli 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1307_HH.xlsx",
+          "Format": "XLSX",
+          "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "LastModified": null,
+          "FileName": "8476259f-e478-447c-95fc-c35e7f598e7a_d900386f36fc_E_II_E_III_1_m1307_HH.xlsx",
+          "Sha256": "d900386f36fcd27b3020e7bd19ba58259ce4190174e0ff1d561b8fdc10f4fa9e",
+          "SizeBytes": 321135,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:13.6127293+00:00"
+        },
+        {
+          "Id": "17be4e41-8813-49af-8bfc-4788e555fffb",
+          "Name": "Das Baugewerbe in Hamburg im Juli 2013 (CSV-Version in einer ZIP-Datei)",
+          "Url": "http://suche.transparenz.hamburg.de/localresources/StaNord_CMS/StaNord_CMS56091/E_II_E_III_1_m1307_HH.zip",
+          "Format": "ZIP",
+          "MimeType": "application/zip",
+          "LastModified": null,
+          "FileName": "17be4e41-8813-49af-8bfc-4788e555fffb_2b8f8598cf9e_E_II_E_III_1_m1307_HH.zip",
+          "Sha256": "2b8f8598cf9e6b15391e6b26b161709657709f012b94955b7ad108163197f6f5",
+          "SizeBytes": 375950,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:13.8846702+00:00"
+        },
+        {
+          "Id": "1b694c67-1a10-46da-b2e6-08467b4bac15",
+          "Name": "Das Baugewerbe in Hamburg im Juli 2013",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_H/E_II_E_III_1_m1307_HH.pdf",
+          "Format": "PDF",
+          "MimeType": "application/pdf",
+          "LastModified": null,
+          "FileName": "1b694c67-1a10-46da-b2e6-08467b4bac15_546988b639ec_E_II_E_III_1_m1307_HH.pdf",
+          "Sha256": "546988b639ec99015273b1ac498bccd8251bf7ef74eb6bfbb42b1424c9499b15",
+          "SizeBytes": 422754,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:14.1925972+00:00"
+        }
+      ]
+    },
+    {
+      "Id": "352a98d0-b158-4fc6-a412-0c31530f22df",
+      "Title": "Das Baugewerbe in Hamburg 2012 (E II 2 / E III 2 - j/12 HH)",
+      "Publisher": "Statistisches Amt f\u00FCr Hamburg und Schleswig-Holstein A.\u00F6.R. (Statistikamt Nord)",
+      "LicenceId": "dl-de-by-2.0",
+      "LicenceTitle": "Datenlizenz Deutschland - Namensnennung - 2.0",
+      "MetadataModified": "2026-11-23T05:42:34.873110",
+      "RetrievedAt": "2026-11-23T06:09:16.2381691+00:00",
+      "Resources": [
+        {
+          "Id": "f79aaa6c-81f9-4c46-8628-f2be7b358050",
+          "Name": "Das Baugewerbe in Hamburg 2012 - Ergebnisse der Jahreserhebungen vom 30.06.2012",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_2_E_III_2_j_H/E_II_2_EIII_2_j12_HH.xlsx",
+          "Format": "XLSX",
+          "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "LastModified": null,
+          "FileName": "f79aaa6c-81f9-4c46-8628-f2be7b358050_0a87232f87a2_E_II_2_EIII_2_j12_HH.xlsx",
+          "Sha256": "0a87232f87a2a118e3933d9ba56da050ef525c12223e77d29ecf5c505038ba80",
+          "SizeBytes": 279557,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:14.4390542+00:00"
+        },
+        {
+          "Id": "b06b8054-7082-47ba-bfbe-f1ce88e8f15e",
+          "Name": "Das Baugewerbe in Hamburg 2012 - Ergebnisse der Jahreserhebungen vom 30.06.2012 (CSV-Version in einer ZIP-Datei)",
+          "Url": "http://suche.transparenz.hamburg.de/localresources/StaNord_CMS/StaNord_CMS56110/E_II_2_EIII_2_j12_HH.zip",
+          "Format": "ZIP",
+          "MimeType": "application/zip",
+          "LastModified": null,
+          "FileName": "b06b8054-7082-47ba-bfbe-f1ce88e8f15e_0beb59a637c4_E_II_2_EIII_2_j12_HH.zip",
+          "Sha256": "0beb59a637c4ef50d91d53e5250b1e77f3a68423fcb805d9d333efc1b28fc525",
+          "SizeBytes": 368981,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:15.6345693+00:00"
+        },
+        {
+          "Id": "a648b5ed-ccfd-42a6-b451-26d38bdc5706",
+          "Name": "Das Baugewerbe in Hamburg 2012 - Ergebnisse der Jahreserhebungen vom 30.06.2012",
+          "Url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_2_E_III_2_j_H/E_II_2_EIII_2_j12_HH.pdf",
+          "Format": "PDF",
+          "MimeType": "application/pdf",
+          "LastModified": null,
+          "FileName": "a648b5ed-ccfd-42a6-b451-26d38bdc5706_36ac27ef1cae_E_II_2_EIII_2_j12_HH.pdf",
+          "Sha256": "36ac27ef1caef56c86b73003d0a2a7d4ac881e23229426a7f71c71e310ed159f",
+          "SizeBytes": 943221,
+          "Status": "Downloaded",
+          "RetrievedAt": "2026-11-23T06:09:16.2379347+00:00"
+        }
+      ]
+    }
+  ]
+}
