@@ -1,10 +1,10 @@
 # LBICAA
 
-**LBICAA** is an open-source, claims-centred system for researching, documenting and analysing public administration, institutions, organisations and their activities.
+**LBICAA — Governmental Organigram with Governance Evidence.** LBICAA is an open-source system for reconstructing public-sector institutions, organisational units, responsibilities and relationships, with traceable evidence and governance history for each representation.
 
-Its central purpose is to make claims traceable to evidence and sources. Rather than treating an institution or publication as a single authoritative record, LBICAA is designed to represent individual claims, their supporting or contradicting evidence, their temporal context and their verification history.
+Its central purpose is to make an understandable governmental organigram whose entries and relationships can be examined against their sources. LBICAA represents the claims behind that structure, their supporting or contradicting evidence, temporal context and verification history. The first operational target remains the Hamburg prototype, with Germany-wide coverage as the long-term target.
 
-The project aims to support transparent, reproducible and critical research.
+The project aims to support transparent, reproducible and critical research. The organigram is an evidence-backed research representation, not an authoritative statement of government or legal advice.
 
 ## Core principles
 
@@ -19,7 +19,7 @@ The project aims to support transparent, reproducible and critical research.
 
 ## Current development status
 
-LBICAA is under active development. Its initial domain model and solution structure are in place, but the complete research platform has not yet been implemented.
+LBICAA is under active development. Core claim, source, evidence and verification workflows, SQLite persistence and API endpoints have been implemented and tested. The complete Hamburg research workflow and end-user platform have not yet been implemented; see the [roadmap](docs/roadmap.md) for phase definitions, completed work and remaining milestones.
 
 ### Implemented
 
@@ -27,16 +27,17 @@ LBICAA is under active development. Its initial domain model and solution struct
 - Enumerations for claim nature, status, confidence, evidence assessment, source type, licence status, verification method and verification outcome.
 - Basic domain validation, including required identifiers, source URIs and evidence locators.
 - Unit tests covering selected domain validation and behaviour.
+- Core claim, source, evidence and verification workflows with SQLite persistence and HTTP API endpoints (see the roadmap for scope and test qualifications).
 - .NET 11 RC3 development baseline.
 
-### Configured or scaffolded
+### In progress or scaffolded
 
 - ASP.NET Core API project.
 - Atlas web application project.
 - Analysis and crawler projects.
-- Entity Framework Core and SQLite dependencies in the infrastructure project.
+- Source discovery, analysis and Atlas projects whose end-user capabilities remain under development.
 
-These projects are not yet complete application services. In particular, a configured database dependency does not mean that persistent storage and repository workflows are implemented.
+These projects do not yet provide the complete research services or a Hamburg-to-Atlas end-to-end workflow.
 
 See [Architecture](docs/architecture.md) for project responsibilities and current boundaries.
 

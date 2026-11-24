@@ -2,9 +2,9 @@
 
 ## 1. Purpose
 
-LBICAA is a claims-centred research and knowledge system designed to collect, structure, examine and preserve information about real-world entities, organisations, events and relationships.
+**LBICAA — Governmental Organigram with Governance Evidence.** LBICAA is a source-based research system for reconstructing public-sector institutions, organisational units, responsibilities and relationships as an inspectable governmental organigram.
 
-Its central concern is not simply what information is available, but:
+The organigram is supported by explicit claims, evidence and governance history. Its central concern is not simply what information is available, but:
 
 - What exactly is being claimed?
 - Which sources support that claim?
@@ -13,7 +13,7 @@ Its central concern is not simply what information is available, but:
 - How reliable is the available evidence?
 - When was a statement valid, and when did the system record it?
 
-LBICAA aims to make research traceable, reproducible and open to scrutiny.
+LBICAA aims to make the represented structure traceable, reproducible and open to scrutiny. The first operational target remains Hamburg; Germany-wide coverage is the long-term target as set out in the roadmap.
 
 ## 2. Core principle: claims before conclusions
 
@@ -50,7 +50,13 @@ The system is intended to preserve:
 
 The objective is that a reader can follow a conclusion back through its claims and evidence to the underlying sources.
 
-## 5. Scope
+## 5. Product direction
+
+The primary product is an evidence-backed representation of government structure: institutions and units, their responsibilities, and their relationships over time. Each meaningful entry or relationship should be inspectable through its claims, sources, evidence assessments and verification history.
+
+“Governance evidence” describes the provenance, assessment, uncertainty and change history that lets readers understand why a part of the organigram is represented as it is. The organigram is a research representation and does not itself confer legal or administrative authority.
+
+## 6. Scope
 
 LBICAA is intended to support structured research, source comparison, knowledge organisation and the examination of complex relationships.
 
@@ -58,7 +64,7 @@ It is not intended to replace courts, regulators, professional investigators or 
 
 It must not present automated analysis as authoritative proof.
 
-## 6. Long-term direction
+## 7. Long-term direction
 
 The intended direction includes:
 
@@ -71,6 +77,6 @@ The intended direction includes:
 
 These are development objectives, not assertions that all such capabilities are already implemented.
 
-## 7. Guiding rule
+## 8. Guiding rule
 
 **Every meaningful conclusion should be traceable to the claims, evidence and sources on which it depends.**

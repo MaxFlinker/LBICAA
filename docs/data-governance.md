@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-Data governance defines how LBICAA handles information, preserves its provenance, communicates uncertainty and manages the responsible use of collected material.
+Data governance defines how LBICAA handles information, preserves its provenance, communicates uncertainty and manages the responsible use of collected material for its governmental organigram. Governance evidence lets readers inspect the basis and history of represented institutions, units, responsibilities and relationships.
 
 The objective is to make the research record reliable, traceable and appropriately controlled.
 
@@ -89,7 +89,7 @@ The intended distinction is between:
 - Material requiring controlled access.
 - Material that should not be collected or retained.
 
-Publication should preserve source attribution and communicate uncertainty, limitations and unresolved disputes.
+Publication of the organigram should preserve source attribution and communicate uncertainty, limitations and unresolved disputes. Its presentation must not imply that a represented structure is complete, current or authoritative beyond the available evidence.
 
 ## 8. Corrections and disputes
 

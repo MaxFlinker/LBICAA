@@ -235,10 +235,10 @@
     "C": "April\n2012",
     "D": "M\u00E4rz\n2013",
     "E": "April\n2013",
-    "F": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
-    "G": "M\u00E4rz \n2013",
-    "H": "Januar bis April2 / 2012",
-    "I": "2013",
+    "F": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
+    "G": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
+    "H": "Januar bis April2 \u2014 2012",
+    "I": "Januar bis April2 \u2014 2013",
     "J": "Ver\u00E4n-derung in %"
   },
   "Footnotes": [
@@ -2925,7 +2925,13 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 9,
@@ -2943,7 +2949,13 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 9,
@@ -2961,14 +2973,20 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 9,
       "CellReference": "F9",
       "Unit": null,
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-4.1561297416162688",
       "ResolvedValue": "-4.1561297416162688",
       "Formula": "SUM(E9*100/C9-100)",
@@ -2979,14 +2997,21 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 9,
       "CellReference": "G9",
       "Unit": null,
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "0.35689615473175706",
       "ResolvedValue": "0.35689615473175706",
       "Formula": "SUM(E9*100/D9-100)",
@@ -2997,14 +3022,21 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 9,
       "CellReference": "H9",
       "Unit": null,
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "8920",
       "ResolvedValue": "8920",
       "Formula": null,
@@ -3015,14 +3047,21 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 9,
       "CellReference": "I9",
       "Unit": null,
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "8685",
       "ResolvedValue": "8685",
       "Formula": null,
@@ -3033,7 +3072,14 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 9,
@@ -3051,7 +3097,13 @@
       "Category": null,
       "SourceLabel": "T\u00E4tige Personen",
       "DataType": null,
-      "IndicatorSourceRow": 9
+      "IndicatorSourceRow": 9,
+      "SourceLabelCellReference": "A9",
+      "IndicatorCellReference": "A9",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 10,
@@ -3069,7 +3121,13 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 10,
@@ -3087,7 +3145,13 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 10,
@@ -3105,14 +3169,20 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 10,
       "CellReference": "F10",
       "Unit": "(1 000)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-6.8281938325991121",
       "ResolvedValue": "-6.8281938325991121",
       "Formula": "",
@@ -3123,14 +3193,21 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 10,
       "CellReference": "G10",
       "Unit": "(1 000)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "47.130434782608688",
       "ResolvedValue": "47.130434782608688",
       "Formula": "",
@@ -3141,14 +3218,21 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 10,
       "CellReference": "H10",
       "Unit": "(1 000)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "2969",
       "ResolvedValue": "2969",
       "Formula": null,
@@ -3159,14 +3243,21 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 10,
       "CellReference": "I10",
       "Unit": "(1 000)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "2589",
       "ResolvedValue": "2589",
       "Formula": null,
@@ -3177,7 +3268,14 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 10,
@@ -3195,7 +3293,13 @@
       "Category": null,
       "SourceLabel": "Geleistete Arbeitsstunden",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A10",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 11,
@@ -3213,7 +3317,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 11,
@@ -3231,7 +3341,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 11,
@@ -3249,14 +3365,20 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 11,
       "CellReference": "F11",
       "Unit": "(1 000)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-4.5296167247386734",
       "ResolvedValue": "-4.5296167247386734",
       "Formula": "",
@@ -3267,14 +3389,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 11,
       "CellReference": "G11",
       "Unit": "(1 000)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "30.476190476190482",
       "ResolvedValue": "30.476190476190482",
       "Formula": "",
@@ -3285,14 +3414,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 11,
       "CellReference": "H11",
       "Unit": "(1 000)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "987",
       "ResolvedValue": "987",
       "Formula": null,
@@ -3303,14 +3439,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 11,
       "CellReference": "I11",
       "Unit": "(1 000)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "927",
       "ResolvedValue": "927",
       "Formula": null,
@@ -3321,7 +3464,14 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 11,
@@ -3339,7 +3489,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A11",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 12,
@@ -3357,7 +3513,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 12,
@@ -3375,7 +3537,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 12,
@@ -3393,14 +3561,20 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 12,
       "CellReference": "F12",
       "Unit": "(1 000)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-7.6452599388379241",
       "ResolvedValue": "-7.6452599388379241",
       "Formula": "",
@@ -3411,14 +3585,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 12,
       "CellReference": "G12",
       "Unit": "(1 000)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "55.670103092783506",
       "ResolvedValue": "55.670103092783506",
       "Formula": "",
@@ -3429,14 +3610,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 12,
       "CellReference": "H12",
       "Unit": "(1 000)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "1027",
       "ResolvedValue": "1027",
       "Formula": null,
@@ -3447,14 +3635,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 12,
       "CellReference": "I12",
       "Unit": "(1 000)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "912",
       "ResolvedValue": "912",
       "Formula": null,
@@ -3465,7 +3660,14 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 12,
@@ -3483,7 +3685,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A12",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 13,
@@ -3501,7 +3709,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 13,
@@ -3519,7 +3733,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 13,
@@ -3537,14 +3757,20 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 13,
       "CellReference": "F13",
       "Unit": "(1 000)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-8.1632653061224545",
       "ResolvedValue": "-8.1632653061224545",
       "Formula": "",
@@ -3555,14 +3781,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 13,
       "CellReference": "G13",
       "Unit": "(1 000)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "57.89473684210526",
       "ResolvedValue": "57.89473684210526",
       "Formula": "",
@@ -3573,14 +3806,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 13,
       "CellReference": "H13",
       "Unit": "(1 000)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "955",
       "ResolvedValue": "955",
       "Formula": null,
@@ -3591,14 +3831,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 13,
       "CellReference": "I13",
       "Unit": "(1 000)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "750",
       "ResolvedValue": "750",
       "Formula": null,
@@ -3609,7 +3856,14 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 13,
@@ -3627,7 +3881,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 10
+      "IndicatorSourceRow": 10,
+      "SourceLabelCellReference": "A13",
+      "IndicatorCellReference": "A10",
+      "UnitCellReference": "B10",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 14,
@@ -3645,7 +3905,13 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 14,
@@ -3663,7 +3929,13 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 14,
@@ -3681,14 +3953,20 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 14,
       "CellReference": "F14",
       "Unit": "(1 000 Euro)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "43.152866242038215",
       "ResolvedValue": "43.152866242038215",
       "Formula": "",
@@ -3699,14 +3977,21 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 14,
       "CellReference": "G14",
       "Unit": "(1 000 Euro)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "51.002524307255214",
       "ResolvedValue": "51.002524307255214",
       "Formula": "",
@@ -3717,14 +4002,21 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 14,
       "CellReference": "H14",
       "Unit": "(1 000 Euro)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "425676",
       "ResolvedValue": "425676",
       "Formula": null,
@@ -3735,14 +4027,21 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 14,
       "CellReference": "I14",
       "Unit": "(1 000 Euro)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "431699",
       "ResolvedValue": "431699",
       "Formula": null,
@@ -3753,7 +4052,14 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 14,
@@ -3771,7 +4077,13 @@
       "Category": null,
       "SourceLabel": "Baugewerblicher Umsatz",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A14",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 15,
@@ -3789,7 +4101,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 15,
@@ -3807,7 +4125,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 15,
@@ -3825,14 +4149,20 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 15,
       "CellReference": "F15",
       "Unit": "(1 000 Euro)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "113.01475634866162",
       "ResolvedValue": "113.01475634866162",
       "Formula": "",
@@ -3843,14 +4173,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 15,
       "CellReference": "G15",
       "Unit": "(1 000 Euro)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "124.44293785310734",
       "ResolvedValue": "124.44293785310734",
       "Formula": "",
@@ -3861,14 +4198,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 15,
       "CellReference": "H15",
       "Unit": "(1 000 Euro)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "94447",
       "ResolvedValue": "94447",
       "Formula": null,
@@ -3879,14 +4223,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 15,
       "CellReference": "I15",
       "Unit": "(1 000 Euro)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "102392",
       "ResolvedValue": "102392",
       "Formula": null,
@@ -3897,7 +4248,14 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 15,
@@ -3915,7 +4273,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A15",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 16,
@@ -3933,7 +4297,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 16,
@@ -3951,7 +4321,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 16,
@@ -3969,14 +4345,20 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 16,
       "CellReference": "F16",
       "Unit": "(1 000 Euro)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "15.095564508429916",
       "ResolvedValue": "15.095564508429916",
       "Formula": "",
@@ -3987,14 +4369,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 16,
       "CellReference": "G16",
       "Unit": "(1 000 Euro)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "14.99895072209398",
       "ResolvedValue": "14.99895072209398",
       "Formula": "",
@@ -4005,14 +4394,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 16,
       "CellReference": "H16",
       "Unit": "(1 000 Euro)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "216780",
       "ResolvedValue": "216780",
       "Formula": null,
@@ -4023,14 +4419,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 16,
       "CellReference": "I16",
       "Unit": "(1 000 Euro)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "203655",
       "ResolvedValue": "203655",
       "Formula": null,
@@ -4041,7 +4444,14 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 16,
@@ -4059,7 +4469,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A16",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 17,
@@ -4077,7 +4493,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 17,
@@ -4095,7 +4517,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 17,
@@ -4113,14 +4541,20 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 17,
       "CellReference": "F17",
       "Unit": "(1 000 Euro)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "38.500657606313013",
       "ResolvedValue": "38.500657606313013",
       "Formula": "",
@@ -4131,14 +4565,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 17,
       "CellReference": "G17",
       "Unit": "(1 000 Euro)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "59.85157699443414",
       "ResolvedValue": "59.85157699443414",
       "Formula": "",
@@ -4149,14 +4590,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 17,
       "CellReference": "H17",
       "Unit": "(1 000 Euro)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "114449",
       "ResolvedValue": "114449",
       "Formula": null,
@@ -4167,14 +4615,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 17,
       "CellReference": "I17",
       "Unit": "(1 000 Euro)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "125652",
       "ResolvedValue": "125652",
       "Formula": null,
@@ -4185,7 +4640,14 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 17,
@@ -4203,7 +4665,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 14
+      "IndicatorSourceRow": 14,
+      "SourceLabelCellReference": "A17",
+      "IndicatorCellReference": "A14",
+      "UnitCellReference": "B14",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 18,
@@ -4221,7 +4689,13 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 18,
@@ -4239,7 +4713,13 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 18,
@@ -4257,14 +4737,20 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 18,
       "CellReference": "F18",
       "Unit": "(1 000 Euro)",
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "4.2298253212068744",
       "ResolvedValue": "4.2298253212068744",
       "Formula": "",
@@ -4275,14 +4761,21 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 18,
       "CellReference": "G18",
       "Unit": "(1 000 Euro)",
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "30.874155979516928",
       "ResolvedValue": "30.874155979516928",
       "Formula": "",
@@ -4293,14 +4786,21 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 18,
       "CellReference": "H18",
       "Unit": "(1 000 Euro)",
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "98191",
       "ResolvedValue": "98191",
       "Formula": null,
@@ -4311,14 +4811,21 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 18,
       "CellReference": "I18",
       "Unit": "(1 000 Euro)",
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "97450",
       "ResolvedValue": "97450",
       "Formula": null,
@@ -4329,7 +4836,14 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 18,
@@ -4347,7 +4861,13 @@
       "Category": null,
       "SourceLabel": "Bruttoentgelte",
       "DataType": null,
-      "IndicatorSourceRow": 18
+      "IndicatorSourceRow": 18,
+      "SourceLabelCellReference": "A18",
+      "IndicatorCellReference": "A18",
+      "UnitCellReference": "B18",
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 19,
@@ -4365,7 +4885,13 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 19,
@@ -4383,7 +4909,13 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 19,
@@ -4401,14 +4933,20 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 19,
       "CellReference": "F19",
       "Unit": null,
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "14.407941843954418",
       "ResolvedValue": "14.407941843954418",
       "Formula": "",
@@ -4419,14 +4957,21 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 19,
       "CellReference": "G19",
       "Unit": null,
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "16.725480727560893",
       "ResolvedValue": "16.725480727560893",
       "Formula": "",
@@ -4437,14 +4982,21 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 19,
       "CellReference": "H19",
       "Unit": null,
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "292874",
       "ResolvedValue": "292874",
       "Formula": null,
@@ -4455,14 +5007,21 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 19,
       "CellReference": "I19",
       "Unit": null,
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "301047",
       "ResolvedValue": "301047",
       "Formula": null,
@@ -4473,7 +5032,14 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 19,
@@ -4491,7 +5057,13 @@
       "Category": null,
       "SourceLabel": "Auftragseingang ",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A19",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 20,
@@ -4509,7 +5081,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 20,
@@ -4527,7 +5105,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 20,
@@ -4545,14 +5129,20 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 20,
       "CellReference": "F20",
       "Unit": null,
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "27.650829037202172",
       "ResolvedValue": "27.650829037202172",
       "Formula": "",
@@ -4563,14 +5153,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 20,
       "CellReference": "G20",
       "Unit": null,
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "46.936647955092212",
       "ResolvedValue": "46.936647955092212",
       "Formula": "",
@@ -4581,14 +5178,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 20,
       "CellReference": "H20",
       "Unit": null,
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "48404",
       "ResolvedValue": "48404",
       "Formula": null,
@@ -4599,14 +5203,21 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 20,
       "CellReference": "I20",
       "Unit": null,
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "45957",
       "ResolvedValue": "45957",
       "Formula": null,
@@ -4617,7 +5228,14 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 20,
@@ -4635,7 +5253,13 @@
       "Category": "Wohnungsbau",
       "SourceLabel": "  Wohnungsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A20",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 21,
@@ -4653,7 +5277,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 21,
@@ -4671,7 +5301,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 21,
@@ -4689,14 +5325,20 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 21,
       "CellReference": "F21",
       "Unit": null,
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "-1.302286078278712",
       "ResolvedValue": "-1.302286078278712",
       "Formula": "",
@@ -4707,14 +5349,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 21,
       "CellReference": "G21",
       "Unit": null,
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "-6.0077737086881342",
       "ResolvedValue": "-6.0077737086881342",
       "Formula": "",
@@ -4725,14 +5374,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 21,
       "CellReference": "H21",
       "Unit": null,
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "146292",
       "ResolvedValue": "146292",
       "Formula": null,
@@ -4743,14 +5399,21 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 21,
       "CellReference": "I21",
       "Unit": null,
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "150323",
       "ResolvedValue": "150323",
       "Formula": null,
@@ -4761,7 +5424,14 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 21,
@@ -4779,7 +5449,13 @@
       "Category": "gewerbl. und industrieller Bau3",
       "SourceLabel": "  gewerbl. und industrieller Bau3",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A21",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     },
     {
       "SourceRow": 22,
@@ -4797,7 +5473,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "C6"
+      ]
     },
     {
       "SourceRow": 22,
@@ -4815,7 +5497,13 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "D6"
+      ]
     },
     {
       "SourceRow": 22,
@@ -4833,14 +5521,20 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "E6"
+      ]
     },
     {
       "SourceRow": 22,
       "CellReference": "F22",
       "Unit": null,
       "Column": "F",
-      "ColumnHeader": "Ver\u00E4nderung in %              April  2013 gegen\u00FCber / April   2012",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 April 2012",
       "RawValue": "32.952685322316626",
       "ResolvedValue": "32.952685322316626",
       "Formula": "",
@@ -4851,14 +5545,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "F7"
+      ]
     },
     {
       "SourceRow": 22,
       "CellReference": "G22",
       "Unit": null,
       "Column": "G",
-      "ColumnHeader": "M\u00E4rz \n2013",
+      "ColumnHeader": "Ver\u00E4nderung in % April 2013 gegen\u00FCber \u2014 M\u00E4rz 2013",
       "RawValue": "43.428355196770951",
       "ResolvedValue": "43.428355196770951",
       "Formula": "",
@@ -4869,14 +5570,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "F6",
+        "G7"
+      ]
     },
     {
       "SourceRow": 22,
       "CellReference": "H22",
       "Unit": null,
       "Column": "H",
-      "ColumnHeader": "Januar bis April2 / 2012",
+      "ColumnHeader": "Januar bis April2 \u2014 2012",
       "RawValue": "98178",
       "ResolvedValue": "98178",
       "Formula": null,
@@ -4887,14 +5595,21 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "H7"
+      ]
     },
     {
       "SourceRow": 22,
       "CellReference": "I22",
       "Unit": null,
       "Column": "I",
-      "ColumnHeader": "2013",
+      "ColumnHeader": "Januar bis April2 \u2014 2013",
       "RawValue": "104767",
       "ResolvedValue": "104767",
       "Formula": null,
@@ -4905,7 +5620,14 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "H6",
+        "I7"
+      ]
     },
     {
       "SourceRow": 22,
@@ -4923,16 +5645,22 @@
       "Category": "\u00F6ffentlicher und Verkehrsbau",
       "SourceLabel": "  \u00F6ffentlicher und Verkehrsbau",
       "DataType": null,
-      "IndicatorSourceRow": 19
+      "IndicatorSourceRow": 19,
+      "SourceLabelCellReference": "A22",
+      "IndicatorCellReference": "A19",
+      "UnitCellReference": null,
+      "ColumnHeaderCellReferences": [
+        "J7"
+      ]
     }
   ],
   "Provenance": {
     "SchemaVersion": "1.0",
     "ExtractorVersion": "1.0.0.0",
     "SourceSha256": "C1E6A7E77D2E13DB4D36556613492F0C31514F5A1B0D108C011CC0E2679F1EEB",
-    "ExtractedAtUtc": "2026-11-23T13:57:24.7938144+00:00",
+    "ExtractedAtUtc": "2026-11-23T16:41:44.1118789+00:00",
     "SourcePath": "C:\\dev\\lbicaa\\data\\sources\\artifacts\\sha256\\c1\\c1e6a7e77d2e13db4d36556613492f0c31514f5a1b0d108c011cc0e2679f1eeb",
-    "GitCommit": "95cff0a00f236bef5ce3f674a588f91cd4ca49c7",
-    "GitWorkingTreeDirty": false
+    "GitCommit": "708e6e13e9d057fc247e3b30a7dd5a82136ba50a",
+    "GitWorkingTreeDirty": true
   }
 }

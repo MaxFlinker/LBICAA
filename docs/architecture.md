@@ -2,7 +2,7 @@
 
 ## 1. Architectural approach
 
-LBICAA is organised as a .NET solution with separate projects for domain concepts, infrastructure, collection, verification, analysis and user-facing applications.
+**LBICAA — Governmental Organigram with Governance Evidence.** LBICAA is organised as a .NET solution with separate projects for domain concepts, infrastructure, collection, verification, analysis and user-facing applications. Together these support an evidence-backed representation of public institutions, organisational units, responsibilities and relationships.
 
 The intended architectural boundary is that core domain rules should not depend on databases, web frameworks or external services.
 
@@ -13,13 +13,13 @@ The domain model defines the concepts that the other components work with.
 | Project | Responsibility | Current status |
 |---|---|---|
 | `LBICAA.Domain` | Claims, evidence, sources and verification records | Domain types implemented |
-| `LBICAA.Infrastructure` | Persistence and external infrastructure | Project configured; implementation pending |
-| `LBICAA.Crawler` | Source discovery and content collection | Scaffold |
-| `LBICAA.Verification` | Verification services and workflows | Scaffold; verification record type resides in Domain |
-| `LBICAA.Analysis` | Analysis and cross-source reasoning | Scaffold |
-| `LBICAA.Api` | HTTP API | ASP.NET Core template with demonstration endpoint |
-| `LBICAA.Atlas` | User-facing application | Minimal ASP.NET Core application |
-| `LBICAA.Tests` | Automated tests | Initial domain tests implemented |
+| `LBICAA.Infrastructure` | Persistence and external infrastructure | SQLite persistence, migrations and repositories implemented and tested |
+| `LBICAA.Crawler` | Source discovery and content collection | Scaffold; operational source adapters remain outstanding |
+| `LBICAA.Verification` | Verification services and workflows | Verification recording workflow implemented; rules engine and systematic re-verification remain outstanding |
+| `LBICAA.Analysis` | Analysis and cross-source reasoning | Project exists; functional analytical workflows remain outstanding |
+| `LBICAA.Api` | HTTP API | Core claim, source, evidence and verification routes implemented and integration-tested |
+| `LBICAA.Atlas` | User-facing application | Project exists; complete end-user organigram functionality remains outstanding |
+| `LBICAA.Tests` | Automated tests | Domain, persistence and core API workflow tests implemented; see roadmap qualifications |
 
 ## 3. Domain model
 
@@ -87,9 +87,7 @@ The domain should remain independent of infrastructure-specific implementations.
 
 ## 5. Persistence and history
 
-Entity Framework Core and SQLite packages are configured in Infrastructure.
-
-A functioning persistence implementation has not yet been established.
+Entity Framework Core and SQLite persistence are implemented in Infrastructure, with migrations, repositories and integration coverage for the workflows described in the roadmap.
 
 The intended design should preserve claim history and provenance rather than silently replacing earlier information. Immutable revisions and append-only verification history remain design objectives.
 
@@ -103,4 +101,4 @@ The repository deliberately uses the selected preview toolchain. Package version
 
 The existence of a project does not mean its intended service is implemented.
 
-At this stage, the domain types and initial tests are the substantive implementation. Infrastructure, collection, analysis and verification services remain development work. The API and Atlas are running applications, but are not yet complete LBICAA products.
+Core domain, persistence and claim-to-verification API workflows are implemented. Source discovery, the complete organisational reconstruction and verification workflows, and the end-user governmental organigram remain development work. Refer to the roadmap for authoritative phase scope, completed work and status; this architecture summary does not replace it.

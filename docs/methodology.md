@@ -2,13 +2,13 @@
 
 ## 1. Research as a traceable process
 
-LBICAA is designed around a structured relationship:
+LBICAA is designed to build an evidence-backed governmental organigram through a structured relationship:
 
 **Source → Evidence → Claim → Assessment → Conclusion**
 
 Each stage has a distinct purpose. A source is not itself a conclusion, and the existence of a statement in a source does not automatically establish its truth.
 
-Research should remain inspectable from the final conclusion back to the original material.
+Each represented institution, unit, responsibility or relationship should remain inspectable from the organigram back through its claims and evidence to the original material. The organigram is a research representation, and its entries remain open to assessment and correction.
 
 ## 2. Sources
 
@@ -121,8 +121,12 @@ They should distinguish established information from inference, identify unresol
 
 Automated analysis may assist research, but it must not silently promote generated interpretations into documented facts.
 
-## 9. Implementation status
+## 9. Application to the governmental organigram
 
-The current domain model provides structures for claims, evidence, sources and verification records.
+Organisational structures and responsibilities are represented as claims, so source statements, inferences and hypotheses remain distinguishable. Relationships should identify their meaning and temporal scope, and conflicting evidence should remain visible. A displayed structure should not imply completeness or certainty beyond the available evidence.
 
-The complete research workflow, automated source evaluation, cross-source analysis and operational verification services remain to be implemented.
+## 10. Implementation status
+
+The current domain model provides structures for claims, evidence, sources and verification records. Core persistence and claim-to-verification API workflows are implemented and tested.
+
+The end-to-end organigram research workflow, operational source ingestion, cross-source analysis and systematic verification services remain to be implemented.
